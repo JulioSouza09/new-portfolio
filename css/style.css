@@ -1,0 +1,62 @@
+body
+{
+    font-family: "Roboto Mono", serif;
+    background-color: #FFFCF5;
+}
+
+.nav-middle
+{
+    background-color: #F2EAD5;
+    border-style: none;
+}
+
+.nav-middle:hover{
+    background-color: #F2EAD5;
+}
+
+button.btn-dark
+{
+    background-color: #F2D48F;
+    border-style: none;
+    color: black;
+}
+
+button.btn-dark:hover
+{
+    background-color: #E8C064;
+    color: black;
+}
+
+li > a.nav-link
+{
+    color: black;
+}
+
+li > a.nav-link:hover
+{
+    color: #62522D;
+}
+
+li.nav-item > p
+{
+    color: #6B6B6B;
+}
+
+li.nav-item > a
+{
+    font-size: 0.8rem;
+    color: #262626;
+}
+
+#footer
+{
+    background-color: #F7F1E4;
+}
+
+@media (max-width: 767px)
+{
+    .hidden-sm
+    {
+        display: none;
+    }
+}
